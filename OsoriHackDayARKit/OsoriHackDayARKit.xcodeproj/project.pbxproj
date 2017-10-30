@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76A90E7E1FA75EDF005A81CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A90E7D1FA75EDF005A81CE /* AppDelegate.swift */; };
+		76A90E801FA75EDF005A81CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A90E7F1FA75EDF005A81CE /* ViewController.swift */; };
+		76A90E831FA75EDF005A81CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76A90E811FA75EDF005A81CE /* Main.storyboard */; };
+		76A90E851FA75EDF005A81CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76A90E841FA75EDF005A81CE /* Assets.xcassets */; };
+		76A90E881FA75EDF005A81CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76A90E861FA75EDF005A81CE /* LaunchScreen.storyboard */; };
+		76A90E931FA75EDF005A81CE /* OsoriHackDayARKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A90E921FA75EDF005A81CE /* OsoriHackDayARKitTests.swift */; };
+		76A90E9E1FA75EDF005A81CE /* OsoriHackDayARKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A90E9D1FA75EDF005A81CE /* OsoriHackDayARKitUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76A90E8F1FA75EDF005A81CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76A90E721FA75EDF005A81CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76A90E791FA75EDF005A81CE;
+			remoteInfo = OsoriHackDayARKit;
+		};
+		76A90E9A1FA75EDF005A81CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76A90E721FA75EDF005A81CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76A90E791FA75EDF005A81CE;
+			remoteInfo = OsoriHackDayARKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		76A90E7A1FA75EDF005A81CE /* OsoriHackDayARKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OsoriHackDayARKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76A90E7D1FA75EDF005A81CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		76A90E7F1FA75EDF005A81CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		76A90E821FA75EDF005A81CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76A90E841FA75EDF005A81CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76A90E871FA75EDF005A81CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76A90E891FA75EDF005A81CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76A90E8E1FA75EDF005A81CE /* OsoriHackDayARKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OsoriHackDayARKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76A90E921FA75EDF005A81CE /* OsoriHackDayARKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OsoriHackDayARKitTests.swift; sourceTree = "<group>"; };
+		76A90E941FA75EDF005A81CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76A90E991FA75EDF005A81CE /* OsoriHackDayARKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OsoriHackDayARKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76A90E9D1FA75EDF005A81CE /* OsoriHackDayARKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OsoriHackDayARKitUITests.swift; sourceTree = "<group>"; };
+		76A90E9F1FA75EDF005A81CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76A90E771FA75EDF005A81CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76A90E8B1FA75EDF005A81CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76A90E961FA75EDF005A81CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76A90E711FA75EDF005A81CE = {
+			isa = PBXGroup;
+			children = (
+				76A90E7C1FA75EDF005A81CE /* OsoriHackDayARKit */,
+				76A90E911FA75EDF005A81CE /* OsoriHackDayARKitTests */,
+				76A90E9C1FA75EDF005A81CE /* OsoriHackDayARKitUITests */,
+				76A90E7B1FA75EDF005A81CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76A90E7B1FA75EDF005A81CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76A90E7A1FA75EDF005A81CE /* OsoriHackDayARKit.app */,
+				76A90E8E1FA75EDF005A81CE /* OsoriHackDayARKitTests.xctest */,
+				76A90E991FA75EDF005A81CE /* OsoriHackDayARKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76A90E7C1FA75EDF005A81CE /* OsoriHackDayARKit */ = {
+			isa = PBXGroup;
+			children = (
+				76A90E7D1FA75EDF005A81CE /* AppDelegate.swift */,
+				76A90E7F1FA75EDF005A81CE /* ViewController.swift */,
+				76A90E811FA75EDF005A81CE /* Main.storyboard */,
+				76A90E841FA75EDF005A81CE /* Assets.xcassets */,
+				76A90E861FA75EDF005A81CE /* LaunchScreen.storyboard */,
+				76A90E891FA75EDF005A81CE /* Info.plist */,
+			);
+			path = OsoriHackDayARKit;
+			sourceTree = "<group>";
+		};
+		76A90E911FA75EDF005A81CE /* OsoriHackDayARKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				76A90E921FA75EDF005A81CE /* OsoriHackDayARKitTests.swift */,
+				76A90E941FA75EDF005A81CE /* Info.plist */,
+			);
+			path = OsoriHackDayARKitTests;
+			sourceTree = "<group>";
+		};
+		76A90E9C1FA75EDF005A81CE /* OsoriHackDayARKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				76A90E9D1FA75EDF005A81CE /* OsoriHackDayARKitUITests.swift */,
+				76A90E9F1FA75EDF005A81CE /* Info.plist */,
+			);
+			path = OsoriHackDayARKitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76A90E791FA75EDF005A81CE /* OsoriHackDayARKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76A90EA21FA75EDF005A81CE /* Build configuration list for PBXNativeTarget "OsoriHackDayARKit" */;
+			buildPhases = (
+				76A90E761FA75EDF005A81CE /* Sources */,
+				76A90E771FA75EDF005A81CE /* Frameworks */,
+				76A90E781FA75EDF005A81CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OsoriHackDayARKit;
+			productName = OsoriHackDayARKit;
+			productReference = 76A90E7A1FA75EDF005A81CE /* OsoriHackDayARKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76A90E8D1FA75EDF005A81CE /* OsoriHackDayARKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76A90EA51FA75EDF005A81CE /* Build configuration list for PBXNativeTarget "OsoriHackDayARKitTests" */;
+			buildPhases = (
+				76A90E8A1FA75EDF005A81CE /* Sources */,
+				76A90E8B1FA75EDF005A81CE /* Frameworks */,
+				76A90E8C1FA75EDF005A81CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76A90E901FA75EDF005A81CE /* PBXTargetDependency */,
+			);
+			name = OsoriHackDayARKitTests;
+			productName = OsoriHackDayARKitTests;
+			productReference = 76A90E8E1FA75EDF005A81CE /* OsoriHackDayARKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		76A90E981FA75EDF005A81CE /* OsoriHackDayARKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76A90EA81FA75EDF005A81CE /* Build configuration list for PBXNativeTarget "OsoriHackDayARKitUITests" */;
+			buildPhases = (
+				76A90E951FA75EDF005A81CE /* Sources */,
+				76A90E961FA75EDF005A81CE /* Frameworks */,
+				76A90E971FA75EDF005A81CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76A90E9B1FA75EDF005A81CE /* PBXTargetDependency */,
+			);
+			name = OsoriHackDayARKitUITests;
+			productName = OsoriHackDayARKitUITests;
+			productReference = 76A90E991FA75EDF005A81CE /* OsoriHackDayARKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76A90E721FA75EDF005A81CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = com;
+				TargetAttributes = {
+					76A90E791FA75EDF005A81CE = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					76A90E8D1FA75EDF005A81CE = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 76A90E791FA75EDF005A81CE;
+					};
+					76A90E981FA75EDF005A81CE = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 76A90E791FA75EDF005A81CE;
+					};
+				};
+			};
+			buildConfigurationList = 76A90E751FA75EDF005A81CE /* Build configuration list for PBXProject "OsoriHackDayARKit" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76A90E711FA75EDF005A81CE;
+			productRefGroup = 76A90E7B1FA75EDF005A81CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76A90E791FA75EDF005A81CE /* OsoriHackDayARKit */,
+				76A90E8D1FA75EDF005A81CE /* OsoriHackDayARKitTests */,
+				76A90E981FA75EDF005A81CE /* OsoriHackDayARKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76A90E781FA75EDF005A81CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A90E881FA75EDF005A81CE /* LaunchScreen.storyboard in Resources */,
+				76A90E851FA75EDF005A81CE /* Assets.xcassets in Resources */,
+				76A90E831FA75EDF005A81CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76A90E8C1FA75EDF005A81CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76A90E971FA75EDF005A81CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76A90E761FA75EDF005A81CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A90E801FA75EDF005A81CE /* ViewController.swift in Sources */,
+				76A90E7E1FA75EDF005A81CE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76A90E8A1FA75EDF005A81CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A90E931FA75EDF005A81CE /* OsoriHackDayARKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76A90E951FA75EDF005A81CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A90E9E1FA75EDF005A81CE /* OsoriHackDayARKitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76A90E901FA75EDF005A81CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76A90E791FA75EDF005A81CE /* OsoriHackDayARKit */;
+			targetProxy = 76A90E8F1FA75EDF005A81CE /* PBXContainerItemProxy */;
+		};
+		76A90E9B1FA75EDF005A81CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76A90E791FA75EDF005A81CE /* OsoriHackDayARKit */;
+			targetProxy = 76A90E9A1FA75EDF005A81CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		76A90E811FA75EDF005A81CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76A90E821FA75EDF005A81CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76A90E861FA75EDF005A81CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76A90E871FA75EDF005A81CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76A90EA01FA75EDF005A81CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		76A90EA11FA75EDF005A81CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76A90EA31FA75EDF005A81CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LVRKUWY6HJ;
+				INFOPLIST_FILE = OsoriHackDayARKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.OsoriHackDayARKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76A90EA41FA75EDF005A81CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LVRKUWY6HJ;
+				INFOPLIST_FILE = OsoriHackDayARKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.OsoriHackDayARKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		76A90EA61FA75EDF005A81CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LVRKUWY6HJ;
+				INFOPLIST_FILE = OsoriHackDayARKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.OsoriHackDayARKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OsoriHackDayARKit.app/OsoriHackDayARKit";
+			};
+			name = Debug;
+		};
+		76A90EA71FA75EDF005A81CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LVRKUWY6HJ;
+				INFOPLIST_FILE = OsoriHackDayARKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.OsoriHackDayARKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OsoriHackDayARKit.app/OsoriHackDayARKit";
+			};
+			name = Release;
+		};
+		76A90EA91FA75EDF005A81CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LVRKUWY6HJ;
+				INFOPLIST_FILE = OsoriHackDayARKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.OsoriHackDayARKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OsoriHackDayARKit;
+			};
+			name = Debug;
+		};
+		76A90EAA1FA75EDF005A81CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LVRKUWY6HJ;
+				INFOPLIST_FILE = OsoriHackDayARKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.OsoriHackDayARKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OsoriHackDayARKit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76A90E751FA75EDF005A81CE /* Build configuration list for PBXProject "OsoriHackDayARKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76A90EA01FA75EDF005A81CE /* Debug */,
+				76A90EA11FA75EDF005A81CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76A90EA21FA75EDF005A81CE /* Build configuration list for PBXNativeTarget "OsoriHackDayARKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76A90EA31FA75EDF005A81CE /* Debug */,
+				76A90EA41FA75EDF005A81CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76A90EA51FA75EDF005A81CE /* Build configuration list for PBXNativeTarget "OsoriHackDayARKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76A90EA61FA75EDF005A81CE /* Debug */,
+				76A90EA71FA75EDF005A81CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76A90EA81FA75EDF005A81CE /* Build configuration list for PBXNativeTarget "OsoriHackDayARKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76A90EA91FA75EDF005A81CE /* Debug */,
+				76A90EAA1FA75EDF005A81CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76A90E721FA75EDF005A81CE /* Project object */;
+}
