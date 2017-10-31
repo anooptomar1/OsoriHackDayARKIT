@@ -1,0 +1,6 @@
+framework module Pods_OsoriHackDayARKitUITests {
+  umbrella header "Pods-OsoriHackDayARKitUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

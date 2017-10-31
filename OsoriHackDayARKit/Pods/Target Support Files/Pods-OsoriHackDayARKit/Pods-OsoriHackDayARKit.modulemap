@@ -1,0 +1,6 @@
+framework module Pods_OsoriHackDayARKit {
+  umbrella header "Pods-OsoriHackDayARKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

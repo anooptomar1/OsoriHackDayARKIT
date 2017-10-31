@@ -1,0 +1,17 @@
+PODS:
+  - ARCL (1.0.1)
+  - CocoaLumberjack/Default (3.3.0)
+  - CocoaLumberjack/Swift (3.3.0):
+    - CocoaLumberjack/Default
+
+DEPENDENCIES:
+  - ARCL
+  - CocoaLumberjack/Swift
+
+SPEC CHECKSUMS:
+  ARCL: 193b108d6fd5277ce742be3af92ccf81bbdd2f3b
+  CocoaLumberjack: 3c8c74683302f9012bb168e1c4b7ae3c0b558431
+
+PODFILE CHECKSUM: a57e5aa19e45ca38ed5aa6a757a71d441f1d1127
+
+COCOAPODS: 1.2.0

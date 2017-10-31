@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		769A11161FA8AFE300BBBD64 /* aaaaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769A11151FA8AFE300BBBD64 /* aaaaViewController.swift */; };
 		76A90E7E1FA75EDF005A81CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A90E7D1FA75EDF005A81CE /* AppDelegate.swift */; };
 		76A90E801FA75EDF005A81CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A90E7F1FA75EDF005A81CE /* ViewController.swift */; };
 		76A90E831FA75EDF005A81CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76A90E811FA75EDF005A81CE /* Main.storyboard */; };
@@ -34,6 +35,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14DBE8A64D8209689B62C47E /* Pods-OsoriHackDayARKitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OsoriHackDayARKitUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OsoriHackDayARKitUITests/Pods-OsoriHackDayARKitUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1D02E35D8FE899FB2E4EFB49 /* Pods-OsoriHackDayARKitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OsoriHackDayARKitUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OsoriHackDayARKitUITests/Pods-OsoriHackDayARKitUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1EC16DBCA995FDD68BE8A374 /* Pods-OsoriHackDayARKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OsoriHackDayARKitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OsoriHackDayARKitTests/Pods-OsoriHackDayARKitTests.release.xcconfig"; sourceTree = "<group>"; };
+		60E5B9A3AE456395F2196891 /* Pods-OsoriHackDayARKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OsoriHackDayARKitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OsoriHackDayARKitTests/Pods-OsoriHackDayARKitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		769A10D81FA8AE5900BBBD64 /* OsoriHackDayARKit-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OsoriHackDayARKit-Bridging-Header.h"; sourceTree = "<group>"; };
+		769A11151FA8AFE300BBBD64 /* aaaaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aaaaViewController.swift; sourceTree = "<group>"; };
 		76A90E7A1FA75EDF005A81CE /* OsoriHackDayARKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OsoriHackDayARKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76A90E7D1FA75EDF005A81CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76A90E7F1FA75EDF005A81CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,8 @@
 		76A90E991FA75EDF005A81CE /* OsoriHackDayARKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OsoriHackDayARKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76A90E9D1FA75EDF005A81CE /* OsoriHackDayARKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OsoriHackDayARKitUITests.swift; sourceTree = "<group>"; };
 		76A90E9F1FA75EDF005A81CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA7E2398580BB73B5C34FBD7 /* Pods-OsoriHackDayARKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OsoriHackDayARKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OsoriHackDayARKit/Pods-OsoriHackDayARKit.debug.xcconfig"; sourceTree = "<group>"; };
+		EBFB0F413BB895DD3A829FDE /* Pods-OsoriHackDayARKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OsoriHackDayARKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-OsoriHackDayARKit/Pods-OsoriHackDayARKit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +83,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0220AA52149C79F2890D604D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		06E686EACECB2DAE197D5D1E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA7E2398580BB73B5C34FBD7 /* Pods-OsoriHackDayARKit.debug.xcconfig */,
+				EBFB0F413BB895DD3A829FDE /* Pods-OsoriHackDayARKit.release.xcconfig */,
+				60E5B9A3AE456395F2196891 /* Pods-OsoriHackDayARKitTests.debug.xcconfig */,
+				1EC16DBCA995FDD68BE8A374 /* Pods-OsoriHackDayARKitTests.release.xcconfig */,
+				14DBE8A64D8209689B62C47E /* Pods-OsoriHackDayARKitUITests.debug.xcconfig */,
+				1D02E35D8FE899FB2E4EFB49 /* Pods-OsoriHackDayARKitUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		76A90E711FA75EDF005A81CE = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +110,8 @@
 				76A90E911FA75EDF005A81CE /* OsoriHackDayARKitTests */,
 				76A90E9C1FA75EDF005A81CE /* OsoriHackDayARKitUITests */,
 				76A90E7B1FA75EDF005A81CE /* Products */,
+				0220AA52149C79F2890D604D /* Frameworks */,
+				06E686EACECB2DAE197D5D1E /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +134,8 @@
 				76A90E841FA75EDF005A81CE /* Assets.xcassets */,
 				76A90E861FA75EDF005A81CE /* LaunchScreen.storyboard */,
 				76A90E891FA75EDF005A81CE /* Info.plist */,
+				769A10D81FA8AE5900BBBD64 /* OsoriHackDayARKit-Bridging-Header.h */,
+				769A11151FA8AFE300BBBD64 /* aaaaViewController.swift */,
 			);
 			path = OsoriHackDayARKit;
 			sourceTree = "<group>";
@@ -132,9 +165,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 76A90EA21FA75EDF005A81CE /* Build configuration list for PBXNativeTarget "OsoriHackDayARKit" */;
 			buildPhases = (
+				87EDFDFB4B6CD5827941E58F /* [CP] Check Pods Manifest.lock */,
 				76A90E761FA75EDF005A81CE /* Sources */,
 				76A90E771FA75EDF005A81CE /* Frameworks */,
 				76A90E781FA75EDF005A81CE /* Resources */,
+				FC9CBD82C1272E0ECAB6643F /* [CP] Embed Pods Frameworks */,
+				F60AA81B8A53E92D704E84FF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +185,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 76A90EA51FA75EDF005A81CE /* Build configuration list for PBXNativeTarget "OsoriHackDayARKitTests" */;
 			buildPhases = (
+				8F92C64AA5C94ECD6BA489DF /* [CP] Check Pods Manifest.lock */,
 				76A90E8A1FA75EDF005A81CE /* Sources */,
 				76A90E8B1FA75EDF005A81CE /* Frameworks */,
 				76A90E8C1FA75EDF005A81CE /* Resources */,
+				CBACAD8FB2DC8D4B585D18B6 /* [CP] Embed Pods Frameworks */,
+				AE0D5CA2BB5D69A5E33DC01E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 76A90EA81FA75EDF005A81CE /* Build configuration list for PBXNativeTarget "OsoriHackDayARKitUITests" */;
 			buildPhases = (
+				9734C99F8D2314DF04B9C362 /* [CP] Check Pods Manifest.lock */,
 				76A90E951FA75EDF005A81CE /* Sources */,
 				76A90E961FA75EDF005A81CE /* Frameworks */,
 				76A90E971FA75EDF005A81CE /* Resources */,
+				8C513B9BF3ACEB974FF8526F /* [CP] Embed Pods Frameworks */,
+				B782D09E4203E20405C76CE9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +235,7 @@
 				TargetAttributes = {
 					76A90E791FA75EDF005A81CE = {
 						CreatedOnToolsVersion = 9.0.1;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					76A90E8D1FA75EDF005A81CE = {
@@ -254,11 +297,150 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		87EDFDFB4B6CD5827941E58F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8C513B9BF3ACEB974FF8526F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OsoriHackDayARKitUITests/Pods-OsoriHackDayARKitUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F92C64AA5C94ECD6BA489DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9734C99F8D2314DF04B9C362 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AE0D5CA2BB5D69A5E33DC01E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OsoriHackDayARKitTests/Pods-OsoriHackDayARKitTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B782D09E4203E20405C76CE9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OsoriHackDayARKitUITests/Pods-OsoriHackDayARKitUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBACAD8FB2DC8D4B585D18B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OsoriHackDayARKitTests/Pods-OsoriHackDayARKitTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F60AA81B8A53E92D704E84FF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OsoriHackDayARKit/Pods-OsoriHackDayARKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC9CBD82C1272E0ECAB6643F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OsoriHackDayARKit/Pods-OsoriHackDayARKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		76A90E761FA75EDF005A81CE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				769A11161FA8AFE300BBBD64 /* aaaaViewController.swift in Sources */,
 				76A90E801FA75EDF005A81CE /* ViewController.swift in Sources */,
 				76A90E7E1FA75EDF005A81CE /* AppDelegate.swift in Sources */,
 			);
@@ -424,14 +606,24 @@
 		};
 		76A90EA31FA75EDF005A81CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA7E2398580BB73B5C34FBD7 /* Pods-OsoriHackDayARKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LVRKUWY6HJ;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OsoriHackDayARKit/DaumMap.embeddedframework",
+				);
 				INFOPLIST_FILE = OsoriHackDayARKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.OsoriHackDayARKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OsoriHackDayARKit/OsoriHackDayARKit-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -439,14 +631,23 @@
 		};
 		76A90EA41FA75EDF005A81CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBFB0F413BB895DD3A829FDE /* Pods-OsoriHackDayARKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LVRKUWY6HJ;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OsoriHackDayARKit/DaumMap.embeddedframework",
+				);
 				INFOPLIST_FILE = OsoriHackDayARKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.OsoriHackDayARKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OsoriHackDayARKit/OsoriHackDayARKit-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -454,6 +655,7 @@
 		};
 		76A90EA61FA75EDF005A81CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60E5B9A3AE456395F2196891 /* Pods-OsoriHackDayARKitTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +673,7 @@
 		};
 		76A90EA71FA75EDF005A81CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EC16DBCA995FDD68BE8A374 /* Pods-OsoriHackDayARKitTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +691,7 @@
 		};
 		76A90EA91FA75EDF005A81CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14DBE8A64D8209689B62C47E /* Pods-OsoriHackDayARKitUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +708,7 @@
 		};
 		76A90EAA1FA75EDF005A81CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D02E35D8FE899FB2E4EFB49 /* Pods-OsoriHackDayARKitUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
